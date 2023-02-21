@@ -53,7 +53,7 @@ if __name__ == '__main__':
     cerebro.broker.set_cash(3000) # Change intial investment amount
     print('Initial Capital: $%.2f' % cerebro.broker.getvalue()) # default value is $10,000
 
-    # commission fees - set 0.1%
+    # commission fees - set 1%
     cerebro.broker.setcommission(0.01)
 
     # run the strategy
