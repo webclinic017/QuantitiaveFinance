@@ -25,7 +25,7 @@ if __name__ == '__main__':
     print('Present value (discrete model) of x: %s' % present_discrete_value(x, r, n))
     print('Future value (continuous model) of x: %s' % future_continuous_value(x, r, n))
     print('Present value (continuous model) of x: %s' % present_continuous_value(x, r, n))
-    
+
     # Future value (discrete model) of x: 127.62815625000003
     # Present value (discrete model) of x: 78.35261664684589
     # Future value (continuous model) of x: 128.40254166877415
